@@ -49,7 +49,7 @@ After doing research and knowing the salaries in India, he believes he can find 
 <img src= https://github.com/GuillermoAlcocerDelano/Are-the-salaries-in-the-US-better-/blob/master/IndiaDashboard.png> 
  
  ### Guillermo's example
- Guillermo comes from Queretaro, Mexico. He would only move to the US if he can a much higher salary in the US than in Mexico.
+ Guillermo comes from Queretaro, Mexico. He would only move to the US if he can get a much higher salary in the US than in Mexico.
  He is engaged, but his fiancee could not work in the US because of migration status. Therefore his salary in Baltimore would need
  to offset that 'loss' the couple would have. He gets the final results:
  
