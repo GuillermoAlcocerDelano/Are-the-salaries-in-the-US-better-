@@ -35,9 +35,27 @@ We have found a Cost Of Living Index (CoL) created by expatistan. This website h
  
  
 ### Yash's example
- Yash comes from Mumbai, India. In summer he looks for a full time job and finds an offer of $100,000 in Baltimore. He would prefer to stay in Mumbai to be with his family, therefore he want to see what salary would he need to find in Mumbai or other cities in India.
+ Yash comes from Mumbai, India. In summer he looks for a full time job and finds an offer of $100,000 in Baltimore.
+ He would prefer to stay in Mumbai to be with his family, therefore he want to see what salary would he need to find in Mumbai or other cities in India.
  Afther refreshing the dashboard he gets the final results:
-   
+
+In Mumbai he would need to get a salary of $45,000 USD/year that is $34,31,248.46 rupees a year.
+After doing research and knowing the salaries in India, he believes he can find that salary in Mumbai therefore he would rather move back to India and be with his family.
+<img src= https://github.com/GuillermoAlcocerDelano/Are-the-salaries-in-the-US-better-/blob/master/IndiaDashboard.png> 
+ 
+ ### Guillermo's example
+ Guillermo comes from Queretaro, Mexico. He would only move to the US if he can a much higher salary in the US than in Mexico.
+ He is engaged, but his fiancee could not work in the US because of migration status. Therefore his salary in Baltimore would need
+ to offset that 'loss' the couple would have. He gets the final results:
+ 
+ <img src= https://github.com/GuillermoAlcocerDelano/Are-the-salaries-in-the-US-better-/blob/master/MexicoDashboard.png>
+ 
+ The equivalent salary is nearly $50,000 USD a year. In his research he believes he would not be able to get a salary greater than 
+ $39,000 USD in Queretaro nor Mexico (his preferred cities). 
+ However, given his fiance's new business expects to provide her $15,000 USD/year they have decided its not worth moving to Baltimore.
+ 
+ 
+ 
   
 # Methodology
   1. Extract cost of living index per city fomr expatistant.
@@ -58,5 +76,14 @@ We have found a Cost Of Living Index (CoL) created by expatistan. This website h
           
  5. Create dashboards in a separate Excel sheet.
       - Add slicers for Countries and Regions.
+      
+# Conclusion
+ While the salaries in the US are significant higher than those in India and Mexico, so is the cost of living. 
+ It is important to consider the cost of living to see if the increase in the salary makes it worh it to stay in the US.
+ It is clear that every person will have their own criteria and factors to consider to move from one country to another. With this
+ file we provide them with a tool to compare the salaries in an fair comparison by adjusting according to the costs and taxes
+ from each city/country.
+ Yash and Guillermo have decided to move back to their countries since they consider they will be able to have a similar lifestyle in
+ their cities despite the total salary being much lower (even less than half the salary in the US).
     
 https://www.expatistan.com/es/costo-de-vida/indice
