@@ -6,7 +6,12 @@ We have made an Excel that will allow us to do this, however it is designed so t
 # How will we compare the salaries
 We have found a Cost Of Living Index (CoL) created by expatistan. This website had a similar problem, in their case they wanted to help expats figure out if the salary they were offered in the new city was worth it. They have information of over 2000 cities in the world. However we had access to the top 260 cities. They have compared the cost of living by considering bank historical analysis as well as information provided by users. This costs consider meals, groceries, rent, social hanging outs such as movies, dinners with friends, and activities in the city. 
 ### How to read the CoL
-    Expats have made Prague, Czech Republic as the reference city, and their index is 100. The index for another city is how much more expensive (or cheaper) it is to Prague. For example, Baltimore's index is 160, therefore baltimore is 60% (160-100) more expensive than Prague. Queretaro, Mexico's index is 82% therefore living in Queretaro (82-100) is 18% cheaper than Prague. In our Excel we have made adjustments so that it converts this index to monetary value which will be explained further. Contrary to expats, we will also include the tax deductions (since this is not considered in their analysis).
+    Expats have made Prague, Czech Republic as the reference city, and their index is 100.
+    The index for another city is how much more expensive (or cheaper) it is to Prague. 
+    For example, Baltimore's index is 160, therefore baltimore is 60% (160-100) more expensive than Prague.
+    Queretaro, Mexico's index is 82% therefore living in Queretaro (82-100) is 18% cheaper than Prague. 
+    In our Excel we have made adjustments so that it converts this index to monetary value which will be explained further.
+    Contrary to expats, we will also include the tax deductions (since this is not considered in their analysis).
     
  # Calculation for Equivalent Salary
   Equivalent Salary is the salary (with taxes) that we would need in another city to match the salary in the city we get an offer from. 
@@ -63,7 +68,7 @@ After doing research and knowing the salaries in India, he believes he can find 
       - Split City and Country to seprate cells
       - Turn Index into a percentage by formula
  3. Collect tax bracket information of each country
-      - Retrieved from https://tradingeconomics.com/country-list/personal-income-tax-rate
+      - Retrieved federal taxes for income in each country from https://tradingeconomics.com/country-list/personal-income-tax-rate
       - Use VLOOKUP to extract values to our data set
  4. Add new column called "Region" to be able to classifiy countries by their region.
       - This can be changed in sheet 'Regions per Country' which is a hidden sheet
@@ -86,4 +91,7 @@ After doing research and knowing the salaries in India, he believes he can find 
  Yash and Guillermo have decided to move back to their countries since they consider they will be able to have a similar lifestyle in
  their cities despite the total salary being much lower (even less than half the salary in the US).
     
+## Sources
 https://www.expatistan.com/es/costo-de-vida/indice
+https://tradingeconomics.com/country-list/personal-income-tax-rate
+
